@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Opportunities in Japan</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/api/placeholder/100/50" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#job-listings">Job Listings</a></li>
+                <li><a href="#about-japan">About Japan</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="language-switch">
+                <button id="lang-toggle">日本語</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Work Opportunities in Japan</h1>
+            <p>Discover exciting career prospects in the Land of the Rising Sun</p>
+        </section>
+
+        <section id="job-listings">
+            <h2>Job Listings</h2>
+            <div class="search-bar">
+                <input type="text" id="job-search" placeholder="Search for jobs...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="dropdown">
+                <button id="dropdown-btn">View Job Listings <i class="fas fa-chevron-down"></i></button>
+                <div id="job-list" class="dropdown-content">
+                    <!-- Job listings will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about-japan">
+            <h2>About Japan</h2>
+            <div class="info-cards">
+                <div class="card">
+                    <h3>Culture</h3>
+                    <p>Experience a unique blend of tradition and modernity</p>
+                </div>
+                <div class="card">
+                    <h3>Lifestyle</h3>
+                    <p>Enjoy a high quality of life with excellent public services</p>
+                </div>
+                <div class="card">
+                    <h3>Work Environment</h3>
+                    <p>Discover a professional and innovative work culture</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Work Opportunities in Japan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
